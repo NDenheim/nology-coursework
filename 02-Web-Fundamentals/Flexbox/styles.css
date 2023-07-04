@@ -2,22 +2,37 @@
     background-color: white;
     margin: 0;
     padding: 0;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .header {
     background-color: black;
-    height: 50px;
+    height: 40px;
     font-size: 20px;
 }
 
 .logo {
     background-color: green;
     color: white;
-    padding: 30px;
+    padding-inline: 40px;
+    padding-bottom: 16px;
     align-items: center;
+    text-decoration: none;
 }
 
 .header-right {
+    background-color: black;
     float: right;
+}
+.link {
+    background-color: black;
+    color: white;
+    padding-inline: 40px;
+    padding-bottom: 16px;
+    text-decoration: none;
+}
+
+.link:hover {
+    background-color: green;
+    color: black;
 }
