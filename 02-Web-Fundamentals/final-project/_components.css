@@ -1,12 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Boogaloo&family=IBM+Plex+Sans:wght@400;500&family=Nunito:wght@700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Boogaloo&family=IBM+Plex+Sans:wght@400;500&family=Nunito:wght@700&display=swap");
-* {
-  margin: 0;
-  padding: 0;
-  background-color: #fcfbfa;
-  font-family: "IBM Plex Sans", Verdana, Geneva, Tahoma, sans-serif;
-}
-
 header nav h1 {
   font-family: "Boogaloo", sans-serif;
   font-size: large;
@@ -16,6 +8,8 @@ header nav h1 {
 header nav a button {
   background-color: #fcfbfa;
   color: #33375e;
+  height: 35px;
+  width: 80px;
 }
 
 a {
@@ -28,11 +22,4 @@ a button {
   font-weight: 500;
   border: 1px solid #33375e;
   border-radius: 5px;
-  height: 35px;
-  width: 80px;
-}
-
-header nav {
-  display: flex;
-  justify-content: space-between;
 }
