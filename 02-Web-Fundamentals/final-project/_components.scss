@@ -11,25 +11,33 @@ $color-yellow: #f5f3d5;
 
 header {
     nav {
+        img {
+            height: 75px;
+            margin: auto 10px;
+            margin-left: 20px;
+        }
+
         h1 {
             font-family: $font-logo;
-            font-size: 35px;
+            font-size: 70px;
             font-weight: 300;
             color: $color-primary;
-            margin: auto 20px;
+            margin: auto 0;
         }
 
         a button {
             background-color: #fcfbfa;
             color: $color-primary;
-            height: 35px;
-            width: 75px
+            height: 55px;
+            width: 120px
         }
     }
     
     p {
         font-family: $font-secondary;
         color: $color-secondary;
+        font-size: 33px;
+        margin: 25px auto;
     }
 }
 
@@ -40,8 +48,14 @@ a {
     button {
         background-color: $color-primary;
         color: $color-white;
-        font-weight: 500;
-        border: 1px solid $color-primary;
+        font-size: 20px;
+        font-weight: 600;
+        border: 1.5px solid $color-primary;
         border-radius: 5px;
     }
+}
+
+#device-mockup {
+    width: 60%;
+    margin: 0
 }

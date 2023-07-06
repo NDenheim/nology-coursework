@@ -1,4 +1,11 @@
+* {
+  max-width: 480px;
+}
+
 header nav {
   display: flex;
   justify-content: space-between;
+}
+header nav div {
+  display: flex;
 }

@@ -8,22 +8,29 @@
   text-align: center;
 }
 
+header nav img {
+  height: 75px;
+  margin: auto 10px;
+  margin-left: 20px;
+}
 header nav h1 {
   font-family: "Boogaloo", sans-serif;
-  font-size: 35px;
+  font-size: 70px;
   font-weight: 300;
   color: #33375e;
-  margin: auto 20px;
+  margin: auto 0;
 }
 header nav a button {
   background-color: #fcfbfa;
   color: #33375e;
-  height: 35px;
-  width: 75px;
+  height: 55px;
+  width: 120px;
 }
 header p {
   font-family: "Nunito", sans-serif;
   color: #33bbf5;
+  font-size: 33px;
+  margin: 25px auto;
 }
 
 a {
@@ -33,12 +40,29 @@ a {
 a button {
   background-color: #33375e;
   color: #fcfbfa;
-  font-weight: 500;
-  border: 1px solid #33375e;
+  font-size: 20px;
+  font-weight: 600;
+  border: 1.5px solid #33375e;
   border-radius: 5px;
+}
+
+#device-mockup {
+  width: 60%;
+  margin: 0;
+}
+
+* {
+  max-width: 480px;
 }
 
 header nav {
   display: flex;
   justify-content: space-between;
+}
+header nav div {
+  display: flex;
+}
+
+div {
+  margin: 25px auto;
 }
