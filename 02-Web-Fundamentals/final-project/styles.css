@@ -5,6 +5,7 @@
   padding: 0;
   background-color: #fcfbfa;
   font-family: "IBM Plex Sans", Verdana, Geneva, Tahoma, sans-serif;
+  color: #33375e;
   text-align: center;
 }
 
@@ -51,6 +52,28 @@ a button {
   margin: 0;
 }
 
+.section {
+  margin: 25px auto;
+}
+
+#p1 {
+  font-size: 28px;
+  font-weight: 600;
+  margin: 40px auto;
+}
+
+#p2 {
+  font-size: 25px;
+  font-weight: 600;
+  color: #33bbf5;
+}
+
+#p3 {
+  font-size: 19px;
+  font-weight: 100;
+  margin: 40px auto;
+}
+
 * {
   max-width: 480px;
 }
@@ -61,8 +84,4 @@ header nav {
 }
 header nav div {
   display: flex;
-}
-
-div {
-  margin: 25px auto;
 }
