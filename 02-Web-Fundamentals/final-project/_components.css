@@ -35,6 +35,8 @@ a button {
   font-weight: 600;
   border: 1.5px solid #33375e;
   border-radius: 5px;
+  width: 55%;
+  height: 55px;
 }
 
 #device-mockup {
@@ -61,5 +63,11 @@ a button {
 #p3 {
   font-size: 19px;
   font-weight: 100;
+  margin: 40px auto;
+}
+
+#p4 {
+  font-size: 28px;
+  font-weight: 500;
   margin: 40px auto;
 }
