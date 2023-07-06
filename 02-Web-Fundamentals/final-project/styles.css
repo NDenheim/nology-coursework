@@ -5,17 +5,25 @@
   padding: 0;
   background-color: #fcfbfa;
   font-family: "IBM Plex Sans", Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
 }
 
 header nav h1 {
   font-family: "Boogaloo", sans-serif;
-  font-size: large;
+  font-size: 35px;
+  font-weight: 300;
   color: #33375e;
   margin: auto 20px;
 }
 header nav a button {
   background-color: #fcfbfa;
   color: #33375e;
+  height: 35px;
+  width: 75px;
+}
+header p {
+  font-family: "Nunito", sans-serif;
+  color: #33bbf5;
 }
 
 a {
@@ -28,8 +36,6 @@ a button {
   font-weight: 500;
   border: 1px solid #33375e;
   border-radius: 5px;
-  height: 35px;
-  width: 80px;
 }
 
 header nav {
