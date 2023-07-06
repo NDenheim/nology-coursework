@@ -1,5 +1,26 @@
 header {
-    h1 {
-        font-family: $font-logo;
+    nav {
+        h1 {
+            font-family: $font-logo;
+            color: $color-primary;
+        }
+
+        a button {
+            background-color: #fcfbfa;
+            color: $color-primary;
+        }
+    }
+    
+}
+
+a {
+    text-decoration: none;
+
+    button {
+        background-color: $color-primary;
+        color: $color-white;
+        font-weight: 500;
+        border: 1px solid $color-primary;
+        border-radius: 5px;
     }
 }
