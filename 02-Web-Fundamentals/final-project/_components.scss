@@ -4,9 +4,9 @@ $font-logo: "Boogaloo", sans-serif;
 $font-primary: "IBM Plex Sans", Verdana, Geneva, Tahoma, sans-serif;
 $font-secondary: "Nunito", sans-serif;
 
-$color-primary: #33375e;
+$color-primary: #272854e6;
 $color-secondary: #33bbf5;
-$color-base: #fcfbfa;
+$color-base: #faf9f4;
 $color-yellow: #f5f3d5;
 
 header {
@@ -26,7 +26,7 @@ header {
         }
 
         a button {
-            background-color: #fcfbfa;
+            background-color: $color-base;
             color: $color-primary;
             height: 55px;
             width: 120px
@@ -54,6 +54,7 @@ a {
         border-radius: 5px;
         width: 55%;
         height: 55px;
+        margin: 40px 0;
     }
 }
 
@@ -68,13 +69,13 @@ a {
 
 #p1 {
     font-size: 28px;
-    font-weight: 600;
+    font-weight: 500;
     margin: 40px auto;
 }
 
 #p2 {
     font-size: 25px;
-    font-weight: 600;
+    font-weight: 500;
     color: $color-secondary;
 }
 

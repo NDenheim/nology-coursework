@@ -14,20 +14,26 @@ header {
 }
 
 .penguins-section {
-    height: 125px;
+    height: 145px;
     display: flex;
     justify-content: space-evenly;
-    align-content: baseline;
     flex-wrap: wrap;
 
     p {
-        margin: auto;
         font-size: 21px;
         font-weight: 100;
         text-align: left;
+        margin: auto 0;
     }
+}
 
-    img {
-        margin: auto;
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: $color-yellow;
+    
+    a {
+        background-color: $color-yellow;
+        color: $color-primary;
     }
 }
