@@ -13,6 +13,34 @@ header {
     }
 }
 
+.section {
+    margin: 25px auto;
+}
+
+#p1 {
+    font-size: 28px;
+    font-weight: 500;
+    margin: 40px auto;
+}
+
+#p2 {
+    font-size: 25px;
+    font-weight: 500;
+    color: $color-secondary;
+}
+
+#p3 {
+    font-size: 19px;
+    font-weight: 400;
+    margin: 40px auto;
+}
+
+#p4 {
+    font-size: 27px;
+    font-weight: 500;
+    margin: 30px auto;
+}
+
 .penguins-section {
     height: 145px;
     display: flex;
@@ -20,8 +48,8 @@ header {
     flex-wrap: wrap;
 
     p {
-        font-size: 21px;
-        font-weight: 100;
+        font-size: 20px;
+        font-weight: 300;
         text-align: left;
         margin: auto 0;
     }
@@ -35,5 +63,8 @@ footer {
     a {
         background-color: $color-yellow;
         color: $color-primary;
+        margin: 20px auto;
+        font-size: 22px;
+        font-weight: 500;
     }
 }

@@ -1,11 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Boogaloo&family=IBM+Plex+Sans:wght@400;500&family=Nunito:wght@700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Boogaloo&family=IBM+Plex+Sans:wght@400;500&family=Nunito:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Boogaloo&family=IBM+Plex+Sans:ital,wght@0,200;0,300;0,400;0,500;1,200&family=Nunito:wght@700&display=swap");
 * {
   margin: 0;
   padding: 0;
   background-color: #faf9f4;
   font-family: "IBM Plex Sans", Verdana, Geneva, Tahoma, sans-serif;
-  color: #272854e6;
+  color: #1e254fdc;
   text-align: center;
 }
 
@@ -18,18 +17,20 @@ header nav h1 {
   font-family: "Boogaloo", sans-serif;
   font-size: 70px;
   font-weight: 300;
-  color: #272854e6;
+  color: #1e254fdc;
   margin: auto 0;
 }
 header nav a button {
   background-color: #faf9f4;
-  color: #272854e6;
-  height: 55px;
+  color: #1e254fdc;
+  height: 58px;
   width: 120px;
+  font-size: 22px;
+  font-weight: 700;
 }
 header p {
   font-family: "Nunito", sans-serif;
-  color: #33bbf5;
+  color: #31b9f4;
   font-size: 33px;
   margin: 25px auto;
 }
@@ -39,20 +40,32 @@ a {
   margin: auto 20px;
 }
 a button {
-  background-color: #272854e6;
+  background-color: #1e254fdc;
   color: #faf9f4;
   font-size: 20px;
   font-weight: 600;
-  border: 1.5px solid #272854e6;
+  border: 1.5px solid #1e254fdc;
   border-radius: 5px;
-  width: 55%;
-  height: 55px;
+  width: 50%;
+  height: 57px;
   margin: 40px 0;
 }
 
 #device-mockup {
   width: 60%;
   margin: 0;
+}
+
+* {
+  max-width: 480px;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+}
+header nav div {
+  display: flex;
 }
 
 .section {
@@ -68,31 +81,19 @@ a button {
 #p2 {
   font-size: 25px;
   font-weight: 500;
-  color: #33bbf5;
+  color: #31b9f4;
 }
 
 #p3 {
   font-size: 19px;
-  font-weight: 100;
+  font-weight: 400;
   margin: 40px auto;
 }
 
 #p4 {
-  font-size: 30px;
+  font-size: 27px;
   font-weight: 500;
-  margin: 40px auto;
-}
-
-* {
-  max-width: 480px;
-}
-
-header nav {
-  display: flex;
-  justify-content: space-between;
-}
-header nav div {
-  display: flex;
+  margin: 30px auto;
 }
 
 .penguins-section {
@@ -102,8 +103,8 @@ header nav div {
   flex-wrap: wrap;
 }
 .penguins-section p {
-  font-size: 21px;
-  font-weight: 100;
+  font-size: 20px;
+  font-weight: 300;
   text-align: left;
   margin: auto 0;
 }
@@ -111,9 +112,12 @@ header nav div {
 footer {
   display: flex;
   flex-direction: column;
-  background-color: #f5f3d5;
+  background-color: #fbf9d9;
 }
 footer a {
-  background-color: #f5f3d5;
-  color: #272854e6;
+  background-color: #fbf9d9;
+  color: #1e254fdc;
+  margin: 20px auto;
+  font-size: 22px;
+  font-weight: 500;
 }
