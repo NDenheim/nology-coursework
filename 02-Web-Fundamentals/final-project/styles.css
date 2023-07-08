@@ -3,7 +3,7 @@
 * {
   margin: 0;
   padding: 0;
-  background-color: #fcfbfa;
+  background-color: #faf9f4;
   font-family: "IBM Plex Sans", Verdana, Geneva, Tahoma, sans-serif;
   color: #332969;
   text-align: center;
@@ -77,7 +77,7 @@ a button {
 }
 
 #p4 {
-  font-size: 28px;
+  font-size: 30px;
   font-weight: 500;
   margin: 40px auto;
 }
@@ -92,4 +92,21 @@ header nav {
 }
 header nav div {
   display: flex;
+}
+
+.penguins-section {
+  height: 125px;
+  display: flex;
+  justify-content: space-evenly;
+  align-content: baseline;
+  flex-wrap: wrap;
+}
+.penguins-section p {
+  margin: auto;
+  font-size: 21px;
+  font-weight: 100;
+  text-align: left;
+}
+.penguins-section img {
+  margin: auto;
 }

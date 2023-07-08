@@ -9,3 +9,20 @@ header nav {
 header nav div {
   display: flex;
 }
+
+.penguins-section {
+  height: 125px;
+  display: flex;
+  justify-content: space-evenly;
+  align-content: baseline;
+  flex-wrap: wrap;
+}
+.penguins-section p {
+  margin: auto;
+  font-size: 21px;
+  font-weight: 100;
+  text-align: left;
+}
+.penguins-section img {
+  margin: auto;
+}
