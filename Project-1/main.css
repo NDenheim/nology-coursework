@@ -2,6 +2,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  max-width: 390px;
+}
+
+body {
+  margin: 20px;
+  font-size: 20px;
 }
 
 nav {
@@ -12,12 +18,32 @@ nav ul {
   display: none;
 }
 
+h2 {
+  font-size: 25px;
+}
+
 header h1 {
-  font-size: 90px;
-  margin: 70px 20px;
+  font-size: 70px;
+  margin: 100px 20px;
 }
 header p {
-  font-size: 30px;
+  font-size: 20px;
+}
+
+.about__heading {
+  margin: 70px 0;
+}
+.about__img {
+  margin-bottom: 40px;
+  height: 450px;
+  width: 300px;
+}
+.about__p {
+  margin-bottom: 30px;
+}
+
+.skills {
+  display: none;
 }
 
 @media screen and (min-width: 1080px) {
@@ -25,4 +51,21 @@ header p {
     display: unset;
     list-style-type: none;
   }
+  .skills {
+    display: unset;
+  }
+}
+.portfolio .projects__box {
+  width: 320px;
+  height: 265px;
+  background-color: black;
+}
+.portfolio .projects__description {
+  height: 50px;
+  width: 325px;
+  display: flex;
+  justify-content: space-between;
+}
+.portfolio .projects__description h3 {
+  margin: auto 0px;
 }/*# sourceMappingURL=main.css.map */
