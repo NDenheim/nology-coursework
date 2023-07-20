@@ -20,7 +20,7 @@
         font-size: 24px;
     }
 
-    ul {
+    &__links {
         display: none;
     }
 }
@@ -107,38 +107,95 @@ footer {
 @media screen and (min-width:1080px) {
 
     .margin {
-        margin: 3%;
-        font-size: 1.5vh;
+        margin: 50px 8% 0 8%;
     }
 
     .navigation {
         display: flex;
         justify-content: space-between;
 
+        &__heading {
+            font-size: 32px;
+        }
+
         &__links {
             list-style-type: none;
             display: flex;
+
+            a {
+                margin: 0 20px;
+                text-decoration: none;
+                color: black;
+            }
         }
     }
 
     h3 {
-        font-size: 24px;
+        font-size: 32px;
     }
 
     header {
+
+        margin: 0 30px;
+
         h1 {
-            font-size: 120px;
             margin: 100px 0;
             text-align: center;
         }
     
-        p {
+        .header__statement {
             font-size: 20px;
+            width: 50%;
+        }
+    }
+
+    .about {
+
+        height: 400px;
+        margin: 65px 0;
+        display: grid;
+        grid-template-rows: 40% 30% 30%;
+        grid-template-columns: 60% 40%;
+
+        &__heading {
+            margin: 70px 0;
+            font-weight: bold;
+            grid-row: 1 / 2;
+            grid-column: 1 / 2;
+        }
+    
+        &__img {
+            height: 390px;
+            width: auto;
+            grid-row: 1 / 4;
+            grid-column: 2 / 3;
+            justify-self: right;
+            align-self: center;
+        }
+    
+        &__p {
+            margin-bottom: 30px;
         }
     }
 
     .skills {
-        display: unset;
+        margin: 50px;
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 20% 80%;
+
+        &__heading {
+            grid-area: 1/1/2/2;
+        }
+
+        &__description {
+            grid-area: 1/2/2/3;
+        }
+        
+        &__image {
+            grid-area: 2/1/3/3;
+            justify-self: center;
+        }
     }
 
     #project4,
