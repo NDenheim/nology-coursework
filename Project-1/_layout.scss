@@ -108,6 +108,7 @@ footer {
 
     .margin {
         margin: 50px 8% 0 8%;
+        font-size: 20px;
     }
 
     .navigation {
@@ -139,6 +140,7 @@ footer {
         margin: 0 30px;
 
         h1 {
+            font-size: 105px;
             margin: 100px 0;
             text-align: center;
         }
@@ -152,7 +154,7 @@ footer {
     .about {
 
         height: 400px;
-        margin: 65px 0;
+        margin: 100px 0;
         display: grid;
         grid-template-rows: 40% 30% 30%;
         grid-template-columns: 60% 40%;
@@ -179,7 +181,7 @@ footer {
     }
 
     .skills {
-        margin: 50px;
+        margin: 120px 0;
         display: grid;
         grid-template-rows: 1fr 1fr;
         grid-template-columns: 20% 80%;
