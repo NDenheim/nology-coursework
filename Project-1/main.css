@@ -1,41 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&family=Poiret+One&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
 }
 
 .margin {
-  margin: 20px;
-  font-size: 20px;
+  margin: 30px;
+  font-size: 17px;
 }
 
-nav {
+.navigation {
   display: flex;
   justify-content: center;
 }
-nav ul {
+.navigation__heading {
+  font-size: 24px;
+}
+.navigation ul {
   display: none;
 }
 
+h1, h2, h3, h4 {
+  font-family: "Poiret One", cursive;
+}
+
 h3 {
-  font-size: 24px;
+  font-size: 32px;
 }
 
 header h1 {
-  font-size: 80px;
-  margin: 100px 20px;
-}
-header p {
-  font-size: 20px;
+  font-size: 75px;
+  margin: 100px 0;
 }
 
 .about__heading {
   margin: 70px 0;
+  font-weight: bold;
 }
 .about__img {
   margin-bottom: 40px;
   height: 450px;
-  width: 300px;
+  width: auto;
 }
 .about__p {
   margin-bottom: 30px;
@@ -59,6 +66,7 @@ header p {
 .contact__heading {
   font-size: 70px;
   margin: 50px;
+  text-align: center;
 }
 .contact__button {
   background-color: white;
@@ -68,6 +76,7 @@ header p {
 }
 .contact__button a {
   text-decoration: none;
+  font-size: 20px;
   color: black;
 }
 
@@ -82,6 +91,10 @@ footer {
 }
 
 @media screen and (min-width: 1080px) {
+  .margin {
+    margin: 3%;
+    font-size: 1.5vh;
+  }
   .navigation {
     display: flex;
     justify-content: space-between;
@@ -89,6 +102,17 @@ footer {
   .navigation__links {
     list-style-type: none;
     display: flex;
+  }
+  h3 {
+    font-size: 24px;
+  }
+  header h1 {
+    font-size: 120px;
+    margin: 100px 0;
+    text-align: center;
+  }
+  header p {
+    font-size: 20px;
   }
   .skills {
     display: unset;
@@ -109,7 +133,7 @@ footer {
 }
 .portfolio .projects__box {
   margin-top: 20px;
-  width: 320px;
+  width: 325px;
   height: 265px;
   background-color: black;
 }
@@ -122,4 +146,5 @@ footer {
 }
 .portfolio .projects__description h4 {
   margin: auto 0px;
+  font-size: 28px;
 }/*# sourceMappingURL=main.css.map */

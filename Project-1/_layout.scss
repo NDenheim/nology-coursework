@@ -1,47 +1,55 @@
+@use "./variables" as *;
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: $font-secondary;
 }
 
 .margin {
-    margin: 20px;
-    font-size: 20px;
+    margin: 30px;
+    font-size: 17px;
 }
 
-nav {
+.navigation {
     display: flex;
     justify-content: center;
+
+    &__heading {
+        font-size: 24px;
+    }
 
     ul {
         display: none;
     }
 }
 
+h1, h2, h3, h4 {
+    font-family: $font-primary;
+}
+
 h3 {
-    font-size: 24px;
+    font-size: 32px;
 }
 
 header {
     h1 {
-        font-size: 80px;
-        margin: 100px 20px;
-    }
-
-    p {
-        font-size: 20px;
+        font-size: 75px;
+        margin: 100px 0;
     }
 }
 
 .about {
     &__heading {
         margin: 70px 0;
+        font-weight: bold;
     }
 
     &__img {
         margin-bottom: 40px;
         height: 450px;
-        width: 300px
+        width: auto;
     }
 
     &__p {
@@ -68,6 +76,7 @@ header {
     &__heading {
         font-size: 70px;
         margin: 50px;
+        text-align: center;
     }
     
     &__button {
@@ -78,6 +87,7 @@ header {
 
         a {
             text-decoration: none;
+            font-size: 20px;
             color: black;
         }
     }
@@ -96,6 +106,11 @@ footer {
 
 @media screen and (min-width:1080px) {
 
+    .margin {
+        margin: 3%;
+        font-size: 1.5vh;
+    }
+
     .navigation {
         display: flex;
         justify-content: space-between;
@@ -103,6 +118,22 @@ footer {
         &__links {
             list-style-type: none;
             display: flex;
+        }
+    }
+
+    h3 {
+        font-size: 24px;
+    }
+
+    header {
+        h1 {
+            font-size: 120px;
+            margin: 100px 0;
+            text-align: center;
+        }
+    
+        p {
+            font-size: 20px;
         }
     }
 
