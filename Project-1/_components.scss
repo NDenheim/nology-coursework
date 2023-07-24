@@ -1,3 +1,5 @@
+@use "./variables" as *;
+
 .portfolio {
   h3 {
     margin-top: 60px;
@@ -13,7 +15,14 @@
     margin-top: 20px;
     width: 325px;
     height: 265px;
-    background-color: black;
+    background-color: $color-secondary;
+    color: white;
+    text-align: center;
+
+    &--one {
+      width: 325px;
+      height: 265px;
+    }
   }
 
   .projects__description {
@@ -41,10 +50,9 @@
     }
 
     .projects {
-      margin-bottom: 60px;
+      margin: 0 auto 60px auto;
       display: grid;
-      justify-self: center;
-      align-items: center;
+      justify-items: center;
       grid-template-rows: 1fr 1fr;
       grid-template-columns: repeat(auto-fit, minmax(435px, 1fr));
     }
@@ -53,7 +61,12 @@
       margin-top: 20px;
       width: 430px;
       height: 300px;
-      background-color: black;
+      color: $color-secondary;
+
+      &--one {
+        width: 430px;
+        height: 300px;
+      }
     }
 
     .projects__description {
